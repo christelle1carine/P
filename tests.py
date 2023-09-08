@@ -5,7 +5,7 @@ from joblib import dump, load
 
 
 # Chargeons le modèle entrainé
-model = load('regression_model_saved.pkl')
+model = joblib.load('regression_model_saved.pkl')
 
 # Fonction de prédiction et de probabilité
 
