@@ -1,4 +1,4 @@
-import streamlit as st
+illerimport streamlit as st
 import numpy as np
 import pandas as pd 
 from joblib import dump, load
@@ -18,7 +18,7 @@ def prediction_faux_billets(features):
 # Créons notre interface Streamlit
 def main():
     st.title('Détection de faux billet')
-    st.write('Entrer les caractéristiques du billet à analyser :')
+    st.write('Pouvez-vous entrer les caractéristiques du billet à identifier :')
 
     # Entrons des caractéristiques du billet
     diagonal = st.number_input('Diagonal', min_value=0.0)
